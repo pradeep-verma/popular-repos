@@ -1,0 +1,21 @@
+.language-item {
+  margin: 10px;
+  list-style-type: none;
+}
+
+.filter-btn {
+  border: none;
+  background-color: #ffffff;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  color: #0f172a;
+  padding: 4px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.active {
+  border: 1px solid #0284c7;
+  border-radius: 12px;
+  color: #0284c7;
+}

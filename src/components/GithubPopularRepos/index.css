@@ -1,0 +1,59 @@
+.app-container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.content-container {
+  width: 80%;
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.popular-title {
+  font-size: 34px;
+  font-weight: 700;
+  font-family: 'Lobster';
+  text-align: center;
+  color: #0f172a;
+}
+.language-list-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 0px;
+  flex-wrap: wrap;
+}
+@media screen and (min-width: 768px) {
+  .language-list-container {
+    justify-content: center;
+  }
+}
+.repository-list-container {
+  padding-left: 0px;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.failure-view-container {
+  display: flex;
+  justify-content: center;
+}
+.failure-image {
+  width: 90vw;
+  max-width: 500px;
+}
+
+.failure-text {
+  font-size: 34px;
+  font-weight: 700;
+  font-family: 'Lobster';
+  text-align: center;
+  color: #1e293b;
+}
+.loader-container {
+  display: flex;
+  justify-content: center;
+}
